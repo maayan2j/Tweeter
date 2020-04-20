@@ -1,15 +1,3 @@
-/*
-Author: Anas Nasrallah. 
-Purpose: Tweeter Project.
-Date: 08.04.20
-*/
-
-/* This file represents the Logic Module, a module which is 
-responsible for maintaining the data of the program (the posts
-and the comments).
-It returns several function getPosts, addPost, removePost,
-addComment, removeComment */
-
 const Tweeter = function(){
 
     let posts =  [];

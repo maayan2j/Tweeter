@@ -1,13 +1,3 @@
-/*
-Author: Anas Nasrallah. 
-Purpose: Tweeter Project.
-Date: 17.04.20
-*/
-
-/* This file represents the Renderer Module, a module which is 
-responsible for rendering the whole program. 
-It returns one function renderPosts() */
-
 const Renderer = function(){
 
     // A function that creates and returns a div for a single post
@@ -20,7 +10,7 @@ const Renderer = function(){
         return $postdiv;
     }
 
-    // A function that creates and returns a div for a single post
+    // A function that creates and returns a div for a single comment
     const createComment = function(comment){
         commentDel = '<span class="delete-comment">X</span>'
         $commentdiv = $(`<div>${commentDel} ${comment['text']}</div>`);
